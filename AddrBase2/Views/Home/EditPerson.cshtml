@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "EditPerson";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model AddrBase2.Models.Person
+<h2>Изменение данных пользователя</h2>
+
+    <h2>Пользователь с ID @Model.person_id</h2>
+    @using ( Html.BeginForm( "EditPerson", "Home", FormMethod.Post ) )
+        {
+        <fieldset>
+            @Html.HiddenFor(m=>m.person_id)
+            <p>
+                @Html.LabelFor(m=>m.fio,"Фамилия и Имя")
+                <br />
+                @Html.EditorFor(m=>m.fio)
+                </p>
+            <p>
+                @Html.LabelFor(m=>m.prv_phone,"Личный номер")               
+                <br />
+                @Html.EditorFor(m=>m.prv_phone)
+            </p>
+            <p>
+                @Html.LabelFor(m=>m.description,"Описание" )
+                <br />
+                @Html.EditorFor(m=>m.description)
+            </p>
+            <p><input type="submit" value="Сохранить"/></p>
+        </fieldset>
+        }
+
+

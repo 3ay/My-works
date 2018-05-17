@@ -1,0 +1,37 @@
+﻿@model AddrBase2.Models.Person
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Изменение данных работника</h2>
+@using ( Html.BeginForm() )
+    {
+    <fieldset>
+        <legend>Служащий</legend>
+        @Html.EditorFor(model=>model.person_id)
+        <p>
+            Фамилия Имя Отчество служащего <br />
+            @Html.EditorFor(model=>model.fio)
+        </p>
+        <p>
+            Номер телефона <br />
+            @Html.EditorFor( model => model.prv_phone )
+        </p>
+        <p>
+            Место проживания <br />
+            @Html.EditorFor( model => model.description )
+        </p>
+        <p>
+            Работа <br />
+            @Html.DropDownListFor(model=>model.work_id,ViewBag.Jobs as SelectList )
+        </p>
+        <p>
+            <input type="submit" value="Сохранить" />
+        </p>
+    </fieldset>
+    <div>
+        @Html.ActionLink( "Вернуться к списку работников", "Index" );
+    </div>
+    }
+

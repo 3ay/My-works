@@ -1,0 +1,101 @@
+﻿@model AddrBase2.Models.Person
+
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<body>
+    <style>
+
+.field-validation-error {
+    color: #ad5656;
+}
+ 
+.field-validation-valid {
+    display: none;
+}
+ 
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #f69f9f;
+}
+ 
+.validation-summary-errors {
+    font-weight: bold;
+    color:lightcoral;
+}
+ 
+.validation-summary-valid {
+    display: none;
+}
+     </style>
+</body>
+</html>
+<h2>Регистрация</h2>
+
+ @using ( Html.BeginForm( "Registration", "Home", FormMethod.Post ) )
+     {
+    
+    
+        <div class="editor-field">
+            <br />
+            @Html.LabelFor( model => model.login, "Логин" )
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor( model => model.login )
+            @Html.ValidationMessageFor( model => model.login )
+        </div>
+        <br />
+        <div class="editor-field">
+            @Html.LabelFor( model => model.password, "Пароль" )
+        </div>       
+            <div class="editor-field">
+                @Html.EditorFor( model => model.password )
+                @Html.ValidationMessageFor( model => model.password )
+            </div>
+            <div class="editor-field">
+                @Html.LabelFor( model => model.password, "Повтоите пароль" )
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor( model => model.passwordConfirm )
+                @Html.ValidationMessageFor( model => model.passwordConfirm )
+            </div>
+            <div class="editor-field">
+                <br />
+                @Html.LabelFor( model => model.fio, "Фамилия и имя" )
+                <br />
+                @Html.EditorFor( model => model.fio )
+                @Html.ValidationMessageFor( model => model.fio )
+                <br /><br />
+                @Html.LabelFor( model => model.mail, "Почта" )
+                <br />
+                @Html.EditorFor( model => model.mail )
+                @Html.ValidationMessageFor( model => model.mail )
+                <br /> <br />
+                @Html.LabelFor( model => model.prv_phone, "Личный номер" )
+                <br />
+                @Html.EditorFor( model => model.prv_phone )
+                @Html.ValidationMessageFor( model => model.prv_phone )
+                <br /><br />
+                @Html.LabelFor( model => model.description, "Место нахождения" )
+                <br />
+                @Html.EditorFor( model => model.description )
+                @Html.ValidationMessageFor( model => model.description )
+
+            </div>
+            <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+            <script src="@Url.Content("~/Scripts/jquery.json-2.2.min.js")" type="text/javascript"></script>
+            <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+            <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+            <br /><br />
+      
+             
+            <input type="submit" name="submit" value="Зарегистрироваться" id="submit" /><br><br>
+            <div>
+                @Html.ActionLink( "К списку людей", "Index" )
+            </div>
+         
+
+
+     }

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model AddrBase2.Models.Person
+<h2> Удаление контакта </h2>
+<dl>
+    <dt>Id</dt>
+    <dd>
+        @Html.DisplayFor(model=>model.person_id)
+    </dd>
+    <dt>Полное имя</dt>
+    <dd>
+        @Html.DisplayFor(model=>model.fio)
+    </dd>
+    <dt>Личный номер</dt>
+    <dd>
+`       @Html.DisplayFor( model => model.prv_phone )
+    </dd>
+    <dt>Описание</dt>
+    <dd>
+        @Html.DisplayFor(model=>model.description)
+    </dd>
+</dl>
+@using ( Html.BeginForm() )
+    {
+    <input type="submit" value="Удалить" />
+    }
+

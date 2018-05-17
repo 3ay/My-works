@@ -1,0 +1,23 @@
+﻿Ext.define('Person',{
+    extended: 'Ext.tree.Panel',
+    xtype:'tree-reoder',
+    
+requires:[
+    'Ext.data.TreeStore'
+
+],
+title 'Persons'
+height: 400,
+width: 350,
+
+useArrows: true,
+
+store: {
+    type: 'tree',
+    proxy: {
+        type: 'ajax',
+        url:}}
+
+]
+}
+)

@@ -1,0 +1,71 @@
+﻿
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using ( Html.BeginForm() )
+    {
+    
+       
+    <html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Паспорта и операторы</title>
+    <style>
+        table {
+            border: 1px solid #ccc;
+            border-spacing: 3px;
+        }
+
+        td, th {
+            border: solid 1px #ccc;
+        }
+
+        .collapsed {
+            border-collapse: collapse;
+        }
+
+        .separated {
+            border-collapse: separate;
+        }
+    </style>
+
+</head>
+    <body>
+    <h1>Паспорта и Опреаторы</h1>
+
+    <div>
+       <table class="collapsed">
+         <tr>
+             <th>passport_id</th>
+             <th>operator_id</th>                                                                      
+         </tr>
+           @foreach ( var p in ViewBag.opr )
+               {
+            <tr>
+                <td>
+                     @p.Passport_id 
+                </td>
+<td>
+    @foreach ( var o in p.OperatorS )
+        {
+        
+        @o.Poperator_id
+    <br />
+        }
+</td>                   
+            </tr>
+               }                                                          
+       </table>
+    </div>
+    </body>
+    </html>
+      
+            
+        
+       
+    
+    }
+
+

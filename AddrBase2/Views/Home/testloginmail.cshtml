@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "testloginmail";
+}
+
+<h2>testloginmail</h2>
+
+<form action="#" method="post">
+
+    <label><font color="red">*</font> Ваш Логин:<br></label>
+    <input name="login" type="text" size="50" id="login"><span></span><br>
+    <label><font color="red">*</font> Ваш E-mail:<br></label>
+    <input name="email" type="text" size="50" id="email"> <span></span><br>
+    <label><font color="red">*</font> Ваш пароль:<br></label>
+    <input name="password" type="password" size="50" id="password"><span></span><br>
+    <small>Не менее 6 символов</small>
+    <label><font color="red">*</font> Подтвердите пароль:<br></label>
+    <input name="password2" type="password" size="50" id="password2"> <span></span><br><br>
+
+    <input type="submit" name="submit" value="Зарегистрироваться" id="submit" disabled><br><br>
+    <font color="red">*</font> поля, обязательные для заполнения.
+</form>
+<script src="~/scripts/jquery-1.5.1.js"></script>
+
+<html>
+<body>
+    <style>
+        .inputRed {
+            border: 1px solid #ff4040;
+            background: #ffcece;
+        }
+
+        .inputGreen {
+            border: 1px solid #83c954;
+            background: #e8ffce;
+        }
+    </style>
+</body>
+</html>
+<script type="text/javascript">
+    $("#login").change(function () {
+        function buttonOnAndOff() {
+            if (emailStat == 1 && passwordStat == 1 && password2Stat == 1 &&
+        loginStat == 1) {
+                $("#submit").removeAttr("disabled");
+            } else {
+                $("#submit").attr("disabled", "disabled");
+            }
+        }
+        login = $("#login").val();
+        var expLogin = /^[a-zA-Z0-9_]+$/g;
+        var resLogin = login.search(expLogin);
+        if (resLogin == -1) {
+            $("#login").next().hide().text("Неверный  логин").css("color", "red").
+    fadeIn(400);
+            $("#login").removeClass().addClass("inputRed");
+            loginStat = 0;
+            buttonOnAndOff();
+        } else {
+            $.ajax({
+                url: "testingLoginEmail.php",
+                type: "GET",
+                data: "login=" + login,
+                cache: false,
+                success: function (response) {
+                    if (response == "no") {
+                        $("#login").next().hide().
+    text("Логин  занят").css("color", "red").fadeIn(400);
+                        $("#login").removeClass().
+    addClass("inputRed");
+                    } else {
+                        $("#login").removeClass().
+    addClass("inputGreen");
+                        $("#login").next().text("");
+                    }
+                }
+            });
+            loginStat = 1;
+            buttonOnAndOff();
+        }
+    });
+    $("#login").keyup(function () {
+        $("#login").removeClass();
+        $("#login").next().text("");
+
+    });
+</script>

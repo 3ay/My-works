@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "PhoneView";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PhoneIndex</title>
+    <style>
+        table {
+            border: 1px solid #ccc;
+            border-spacing: 3px;
+        }
+
+        td, th {
+            border: solid 1px #ccc;
+        }
+
+        .collapsed {
+            border-collapse: collapse;
+        }
+
+        .separated {
+            border-collapse: separate;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Таблица телефоны</h3>
+        <table class="collapsed">
+           
+                <tr>
+                    <th>person_id</th>
+                    <th>pub_phone</th>
+                    <th>people_passport</th>
+                </tr>
+                @foreach ( AddrBase2.Models.Phone b in ViewBag.Phones )
+                {
+                    <tr>
+                        <th>@b.p_person_id</th>
+                        <th>@b.pub_phone</th>
+                        <th>@b.people_passport</th>
+                    </tr>
+                    }
+            </table>
+</div>
+</body>
+</html>

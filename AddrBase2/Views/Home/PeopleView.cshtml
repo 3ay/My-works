@@ -1,0 +1,71 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AddrBase2.Models.Person
+    <html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #8FD4C1;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 3px solid #B9B29F;
+}
+th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+  text-align:center;
+  border-bottom: 3px solid #B9B29F;
+}
+tr:nth-child(odd) {
+  background: #F4EEE8;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>Пользователь</caption>
+            <tr>
+                <th>ID</th>
+                <td> @Html.DisplayFor(model=>model.person_id)</td>
+            </tr>
+            <tr>
+                <th>Ф.И.О</th>
+                <td>@Html.DisplayFor(model=>model.fio)</td>
+            </tr>       
+            <tr>
+                <th>Личный номер</th>
+                <td>@Html.DisplayFor(model=>model.prv_phone)</td>
+            </tr>
+            <tr>
+                <th>Локация</th>
+                <td>@Html.DisplayFor(model=>model.description)</td>
+            </tr>
+            <tr>
+                <th>ID работы</th>
+                <td>@Html.DisplayFor(model=>model.work_id)</td>
+            </tr>
+    </table>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@model AddrBase2.Models.Person
+@{
+    ViewBag.Title = "Добавление работника";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Добавление нового работника</h2>
+@using ( Html.BeginForm() )
+    {
+    <fieldset>        
+        <p>
+            Фамилия Имя Отчество <br />
+            @Html.EditorFor(model=>model.fio)
+        </p>
+        <p>
+            Номер телефона <br />
+            @Html.EditorFor(model=>model.prv_phone)
+        </p>
+        <p>
+            Место проживания <br />
+            @Html.EditorFor(model=>model.description)
+        </p>
+        <p>
+            Работа <br />
+            @Html.DropDownListFor(model => model.work_id, ViewBag.Jobs as SelectList )
+        </p>
+        <p>
+            <input type="submit" value="Добавить игрока" />
+        </p>
+    </fieldset>
+    <div>
+        @Html.ActionLink("К списку людей", "Index")
+    </div>
+    }
+

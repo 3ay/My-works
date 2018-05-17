@@ -1,0 +1,44 @@
+﻿V
+@{
+    ViewBag.Title = "Manager";
+}
+
+<h2>Manager</h2>
+<head>
+    <style>
+        table {
+            border: 1px solid #ccc;
+            border-spacing: 3px;
+        }
+
+        td, th {
+            border: solid 1px #ccc;
+        }
+
+        .collapsed {
+            border-collapse: collapse;
+        }
+
+        .separated {
+            border-collapse: separate;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Менеджер</h1>
+    <div>
+        <table class="collapsed">
+            <tr>
+                Something
+            </tr>
+            @foreach (var b in ViewBag.mg)
+                {
+                <tr>
+                    @b.manager
+                </tr>
+                
+                }
+        </table>
+    </div>
+</body>

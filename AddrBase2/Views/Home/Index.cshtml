@@ -1,0 +1,86 @@
+﻿
+
+@{
+    ViewBag.Title = "HomeView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        table {
+            border: 1px solid #ccc;
+            border-spacing: 3px;
+        }
+
+        td, th {
+             border: solid 1px #ccc;
+             border-bottom: 3px solid #B9B29F;
+             padding: 10px;
+             text-align: left;
+        }
+
+        .collapsed {
+            border-collapse: collapse;
+        }
+
+        .separated {
+            border-collapse: separate;
+        }
+    </style>
+
+</head>
+<body>
+        @using ( Html.BeginForm( "Logoff", "Account", FormMethod.Post ) )
+            {
+            
+            <button name="value" value="out">Выйти</button>
+                    
+             }
+
+
+    <div>
+        @ViewBag.username
+        <h3>Таблица люди</h3>
+        <table class="collapsed">
+            <tr>
+                <th>ID</th>
+                <th>Логин</th>
+                <th>Почта</th>
+                <th>Ф.И.О.</th>
+                <th>ID адреса</th>
+                <th>Личный номер</th>
+                <th>Локация</th>
+                <th>ID работы</th>
+            </tr>
+            @foreach ( AddrBase2.Models.Person d in ViewBag.Persons )
+                {
+            
+                <tr>
+                    <th>@d.person_id</th>
+                    <th>@d.login</th>
+                    <th>@d.mail</th>
+                    <th>@d.fio</th>
+                    <th>@d.address_id</th>
+                    <th>@d.prv_phone</th>
+                    <th>@d.description</th>
+                    <th>@d.work_id</th>
+                </tr>
+                }
+            @Html.DisplayForModel()
+        </table>
+    </div>
+    <div>
+        <h3>Время: @DateTime.Now.ToString( "ddd,dd MMM yyyy HH:mm:ss",
+             System.Globalization.CultureInfo.InvariantCulture ) </h3>
+
+        <form method ="post" >
+            <input type="hidden" value="@ViewBag.TimE" name="TimE"/>
+            </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard" />
+    <ExcludeFromPackageFolders Include="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PipelineDependsOn>
+      CustomBeforePublish;
+      $(PipelineDependsOn);
+    </PipelineDependsOn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CopyAllFilesToSingleFolderForPackageDependsOn>
+      CustomCollectFiles;
+      $(CopyAllFilesToSingleFolderForPackageDependsOn);
+    </CopyAllFilesToSingleFolderForPackageDependsOn>
+    <CopyAllFilesToSingleFolderForMsdeployDependsOn>
+      CustomCollectFiles;
+      $(CopyAllFilesToSingleFolderForPackageDependsOn);
+    </CopyAllFilesToSingleFolderForMsdeployDependsOn>
+  </PropertyGroup>
+  <Target Name="CustomCollectFiles">
+    <ItemGroup>
+      <_CustomFiles Include="Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*;Extfull\examples\calendar\build\production\**\*;Extfull\examples\classic\aria\build\production\**\*;Extfull\examples\classic\desktop\build\production\**\*;Extfull\examples\classic\neptune-components\build\production\**\*;Extfull\examples\classic\portal\build\production\**\*;Extfull\examples\classic\responsive-app\build\production\**\*;Extfull\examples\classic\simple-tasks\build\production\**\*;Extfull\examples\classic\ticket-app\build\production\**\*;Extfull\examples\feed-viewer\build\production\**\*;Extfull\examples\kitchensink\build\production\**\*;Extfull\templates\admin-dashboard\build\production\**\*;Extfull\templates\executive-dashboard\build\production\**\*" />
+      <FilesForPackagingFromProject Include="%(_CustomFiles.Identity)">
+        <DestinationRelativePath>%(RecursiveDir)%(Filename)%(Extension)</DestinationRelativePath>
+      </FilesForPackagingFromProject>
+    </ItemGroup>
+  </Target>
+  <Target Name="CustomBeforePublish">
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\calendar">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\aria">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\desktop">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\neptune-components">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\portal">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\responsive-app">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\simple-tasks">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\classic\ticket-app">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\feed-viewer">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\examples\kitchensink">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\admin-dashboard">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+    <Exec Command="sencha.exe app build" ConsoleToMSBuild="true" WorkingDirectory="E:\Документы_buckup\Visual Studio 2015\Projects\AddrBase2\AddrBase2\Extfull\templates\executive-dashboard">
+      <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
+    </Exec>
+  </Target>
+</Project>

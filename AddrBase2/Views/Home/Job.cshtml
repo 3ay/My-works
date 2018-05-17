@@ -1,0 +1,35 @@
+﻿@model List<AddrBase2.Models.Person>
+@{
+    ViewBag.Title = "Вид занятости людей";
+}
+
+<h2>Job</h2>
+
+<p>@Html.ActionLink("Добавить человека", "Create")</p>
+<table>
+    <tr>
+        <th>Id</th>        
+        <th>ФИО</th>
+        <th>Работа</th>
+        
+        
+    </tr>
+    @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.person_id)
+            </td>
+           <td></td>
+            <td>@Html.DisplayFor(modelItem=>item.fio)</td>
+            <td>@Html.DisplayFor(modelItem=>item.Job.nameJob)</td>
+            <td>
+                @Html.ActionLink("Редактировать","Edit",new { id=item.person_id} ) |
+                @Html.ActionLink("Удалить","Delete", new { id=item.person_id} )
+            </td>
+        </tr>
+        }
+</table>
+<p>
+    @Html.ActionLink( "Каталог работ", "JobList" );
+</p>
